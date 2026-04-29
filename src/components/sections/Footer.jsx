@@ -8,12 +8,12 @@ import {
     Send,
     ChevronRight,
     MessageCircle,
-    Camera,
-    Globe
+    Camera
+    
 } from "lucide-react"
 
-import guayaquil from "@/assets/logo-guayaquil.png"
-import pichincha from "@/assets/logo-pichincha.png" 
+import guayaquil from "@/assets/Logo-guayaquil.png"
+import pichincha from "@/assets/Logo-pichincha.png" 
 
 export default function Footer() {
     return (
