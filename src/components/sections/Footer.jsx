@@ -154,7 +154,7 @@ export default function Footer() {
                                 {/* Logo Banco Pichincha */}
                                 <div className="bg-white p-1.5 rounded-lg border border-gray-100 shadow-sm flex items-center justify-center h-10 w-24">
                                     <img
-                                        src={pichincha} /* IMPORTANTE: Reemplaza con tu ruta real */
+                                        src="/img/logo-pichincha.png" /* IMPORTANTE: Reemplaza con tu ruta real */
                                         alt="Banco Pichincha"
                                         className="h-full w-auto object-contain" /* Mantiene proporción y centra */
                                     />
