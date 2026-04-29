@@ -12,8 +12,8 @@ import {
     
 } from "lucide-react"
 
-import guayaquil from "@/assets/Logo-guayaquil.png"
-import pichincha from "@/assets/Logo-pichincha.png" 
+import guayaquil from "@/assets/banco-guayaquil.png"
+import pichincha from "@/assets/banco-pichincha.png"
 
 export default function Footer() {
     return (
