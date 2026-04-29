@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Mic, Flower2, Smartphone, Video, Calendar, AlertTriangle } from "lucide-react";
+  
 
 export default function Hero() {
   return (

@@ -1,5 +1,36 @@
 import { motion } from "framer-motion"
 import { Camera, Heart, Sparkles, Image as ImageIcon } from "lucide-react"
+import img1 from "@/assets/img1.jpeg"
+import img2 from "@/assets/img2.jpeg"
+import img3 from "@/assets/img3.jpeg"
+import img4 from "@/assets/img4.jpeg"
+
+const imagenesGaleria = [
+  {
+    id: 1,
+    url: img1,
+    titulo: "Serenata sorpresa",
+    descripcion: "Momentos de emoción"
+  },
+  {
+    id: 2,
+    url: img2,
+    titulo: "Entrega de flores",
+    descripcion: "Celebración especial"
+  },
+  {
+    id: 3,
+    url: img3,
+    titulo: "Momento único",
+    descripcion: "Recuerdo imborrable"
+  },
+  {
+    id: 4,
+    url: img4,
+    titulo: "Abrazo familiar",
+    descripcion: "Unión y amor"
+  }
+]
 
 const container = {
   hidden: {},
@@ -23,33 +54,6 @@ const item = {
   }
 }
 
-// Array de imágenes personalizable
-const imagenesGaleria = [
-  {
-    id: 1,
-    url: "/src/assets/img1.jpeg", // Cambiar por URL real
-    titulo: "Serenata sorpresa",
-    descripcion: "Momentos de emoción"
-  },
-  {
-    id: 2,
-    url: "/src/assets/img2.jpeg", // Cambiar por URL real
-    titulo: "Entrega de flores",
-    descripcion: "Celebración especial"
-  },
-  {
-    id: 3,
-    url: "/src/assets/img3.jpeg", // Cambiar por URL real
-     titulo: "Momento único",
-    descripcion: "Recuerdo imborrable"
-  },
-  {
-    id: 4,
-    url: "/src/assets/img4.jpeg", // Cambiar por URL real
-    titulo: "Abrazo familiar",
-    descripcion: "Unión y amor"
-  }
-]
 
 export default function Gallery() {
   return (
