@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Mic, Flower2, Smartphone, Video, Calendar, AlertTriangle } from "lucide-react";
-  
+import Cantante from "@/assets/Cantante.jpeg"
+
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
       {/* Imagen de fondo */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/Cantante.jpeg"
+          src={Cantante}
           alt="Serenata"
           /* CONTROLES DE LA IMAGEN:
             - w-full h-full: Ocupa todo el contenedor.
