@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Music, Flower2, Calendar, MapPin, User } from "lucide-react";
-
+import mayra from "@/assets/Mayra.jpeg"
 export default function About() {
   return (
     <section id="Artista" className="py-20 bg-white px-6">
@@ -14,7 +14,7 @@ export default function About() {
           className="flex justify-center"
         >
           <img
-            src="/src/assets/Mayra.jpeg"
+            src={mayra}
             alt="Mayra Maribel Méndez Jordan"
             className="rounded-2xl shadow-lg w-64 md:w-80 object-cover aspect-[4/5]"
           />
