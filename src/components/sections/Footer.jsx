@@ -11,6 +11,8 @@ import {
     Camera,
     Globe
 } from "lucide-react"
+import guayaquil from "@/assets/logo-guayaquil.png"
+import pichincha from "@/assets/logo-pichincha.png" 
 
 export default function Footer() {
     return (
@@ -152,7 +154,7 @@ export default function Footer() {
                                 {/* Logo Banco Pichincha */}
                                 <div className="bg-white p-1.5 rounded-lg border border-gray-100 shadow-sm flex items-center justify-center h-10 w-24">
                                     <img
-                                        src="/src/assets/logo-pichincha.png" /* IMPORTANTE: Reemplaza con tu ruta real */
+                                        src={pichincha} /* IMPORTANTE: Reemplaza con tu ruta real */
                                         alt="Banco Pichincha"
                                         className="h-full w-auto object-contain" /* Mantiene proporción y centra */
                                     />
@@ -161,7 +163,7 @@ export default function Footer() {
                                 {/* Logo Banco Guayaquil */}
                                 <div className="bg-white p-1.5 rounded-lg border border-gray-100 shadow-sm flex items-center justify-center h-10 w-24">
                                     <img
-                                        src="/src/assets/logo-guayaquil.png" /* IMPORTANTE: Reemplaza con tu ruta real */
+                                        src={guayaquil} /* IMPORTANTE: Reemplaza con tu ruta real */
                                         alt="Banco Guayaquil"
                                         className="h-full w-auto object-contain" /* Mantiene proporción y centra */
                                     />
