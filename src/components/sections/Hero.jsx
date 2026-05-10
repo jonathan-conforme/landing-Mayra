@@ -81,7 +81,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="#videos"
+            href="#Videos"
             className="border border-white/70 bg-white/5 backdrop-blur-sm px-8 py-3 rounded-2xl hover:bg-white hover:text-black transition flex items-center justify-center gap-2"
           >
             Ver videos <Video className="w-5 h-5" />
