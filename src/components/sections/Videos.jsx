@@ -3,7 +3,7 @@ import { Music, Users, Heart } from "lucide-react"
 
 export default function Videos() {
   return (
-    <section className="py-20 bg-pink-50 px-6">
+    <section id="Videos" className="py-20 bg-pink-50 px-6">
       <div className="max-w-6xl mx-auto text-center">
 
         {/* Título */}
