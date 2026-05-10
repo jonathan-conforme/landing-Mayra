@@ -30,6 +30,34 @@ export default function Videos() {
 
         {/* Videos */}
         <div className="mt-10 grid md:grid-cols-3 gap-6">
+            {/* Video 1 */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="rounded-2xl overflow-hidden shadow-lg"
+          >
+            <iframe
+              className="w-full h-60"
+              src="https://www.youtube.com/embed/crcbmI28F4o"
+              title="Video serenata duran"
+              allowFullScreen
+            ></iframe>
+          </motion.div>
+
+           <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="rounded-2xl overflow-hidden shadow-lg"
+          >
+            <iframe
+              className="w-full h-60"
+              src="https://www.youtube.com/embed/VHCkdCzsvYo"
+              title="Video serenata duran"
+              allowFullScreen
+            ></iframe>
+          </motion.div>
 
           {/* Video 1 */}
           <motion.div

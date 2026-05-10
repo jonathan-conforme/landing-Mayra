@@ -1,32 +1,39 @@
 import { motion } from "framer-motion"
 import { Camera, Heart, Sparkles, Image as ImageIcon } from "lucide-react"
-import img1 from "@/assets/img1.jpeg"
-import img2 from "@/assets/img2.jpeg"
-import img3 from "@/assets/img3.jpeg"
-import img4 from "@/assets/img4.jpeg"
+import img1 from "@/assets/Duran.jpeg"
+import img2 from "@/assets/img1.jpeg"
+import img3 from "@/assets/img2.jpeg"
+import img4 from "@/assets/img3.jpeg"
+import img5 from "@/assets/img4.jpeg"
 
 const imagenesGaleria = [
-  {
+   {
     id: 1,
     url: img1,
-    titulo: "Serenata sorpresa",
-    descripcion: "Momentos de emoción"
+    titulo: "Una noche inolvidable",
+    descripcion: "Un regalo lleno de emoción"
   },
   {
     id: 2,
     url: img2,
-    titulo: "Entrega de flores",
-    descripcion: "Celebración especial"
+    titulo: "Serenata sorpresa",
+    descripcion: "Momentos de emoción"
   },
   {
     id: 3,
     url: img3,
-    titulo: "Momento único",
-    descripcion: "Recuerdo imborrable"
+    titulo: "Entrega de flores",
+    descripcion: "Celebración especial"
   },
   {
     id: 4,
     url: img4,
+    titulo: "Momento único",
+    descripcion: "Recuerdo imborrable"
+  },
+  {
+    id: 5,
+    url: img5,
     titulo: "Abrazo familiar",
     descripcion: "Unión y amor"
   }

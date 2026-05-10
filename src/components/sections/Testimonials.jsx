@@ -1,8 +1,9 @@
 import { motion } from "framer-motion"
 import { MessageCircle, Music, Heart, Star, User } from "lucide-react"
-import fotos from "../../assets/fotos.jpg"  
+import fotos from "../../assets/fotos.jpg"
 import foto2 from "../../assets/foto2.jpg"
 import foto3 from "../../assets/foto3.jpg"
+import foto4 from "../../assets/Duran.jpeg"
 
 const container = {
   hidden: {},
@@ -52,10 +53,20 @@ const testimonios = [
     id: 2,
     nombre: "Jenniffer Conforme",
     ubicacion: "Pedro Carbo, Sector Durán",
-   texto: "Me dio serenata en mi cumpleaños, fue un momento muy especial. Recomendado.",
+    texto: "Me dio serenata en mi cumpleaños, fue un momento muy especial. Recomendado.",
     icono: Music,
     colorIcono: "text-pink-500",
     imagen: foto2, // Cambiar por imagen real
+    rating: 5
+  },
+  {
+    id: 4,
+    nombre: "Yisela Sanchez y Familia",
+    ubicacion: "Pedro Carbo, Sector Durán",
+    texto: "Mi hijo contrató a la chica para darme una serenata y fue una sorpresa hermosa. Pasamos un momento muy especial en familia, totalmente recomendada.",
+    icono: Music,
+    colorIcono: "text-pink-500",
+    imagen: foto4, // Cambiar por imagen real
     rating: 5
   }
 ]
@@ -111,7 +122,7 @@ export default function Testimonials() {
                       <User className="w-10 h-10 text-pink-400" />
                     </div>
                   )}
-                  
+
                   {/* Indicador de verificado */}
                   <div className="absolute -bottom-1 -right-1 bg-green-500 rounded-full p-1 border-2 border-white">
                     <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -138,7 +149,7 @@ export default function Testimonials() {
               <div className="flex justify-center mb-2">
                 <testimonio.icono className={`w-5 h-5 ${testimonio.colorIcono}`} />
               </div>
-              
+
               <p className="text-gray-600 italic">"{testimonio.texto}"</p>
             </motion.div>
           ))}
